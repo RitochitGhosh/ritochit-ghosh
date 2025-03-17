@@ -33,8 +33,8 @@ export const projects: Project[] = [
         name: "React"
       }
     ],
-    sourceCode: "https://github.com/yourusername/portfolio",
-    deployedUrl: "https://yourportfolio.com",
+    sourceCode: "https://github.com/RitochitGhosh/ritochit-ghosh",
+    deployedUrl: "https://ritochit-ghosh-hna6.vercel.app/",
     completedAt: "2025-03"
   },
   {
