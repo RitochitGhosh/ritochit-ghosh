@@ -18,7 +18,7 @@ export function CodeBlock({ code, language = "javascript" }: CodeBlockProps) {
   return (
     <div className="relative mt-4">
       <Highlight theme={themes.vsDark} code={code} language={language}>
-        {({ className, style, tokens, getLineProps, getTokenProps }) => (
+        {({ tokens, getLineProps, getTokenProps }) => (
           <pre className="bg-[#1e1e1e] text-white p-4 rounded-md overflow-x-auto">
             {tokens.map((line, i) => (
               <div key={i} {...getLineProps({ line })}>
